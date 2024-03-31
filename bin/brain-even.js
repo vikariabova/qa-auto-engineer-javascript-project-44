@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-import gameParity from '../src/gameParity.js';
+import game from './games/gameEven.js';
 
-console.log('Welcome to the Brain Games!');
-console.log(gameParity());
+console.log(game());
