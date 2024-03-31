@@ -39,23 +39,23 @@ const answer = (numbers) => {
     }
   }
 
-  let n1 = '';
-  let n2 = '';
-  let answer = '';
+  let n1 = "";
+  let n2 = "";
+  let answer = "";
 
   if (skipPosition === 0) {
     n1 = parseInt(numbers[skipPosition + 1]);
     n2 = parseInt(numbers[skipPosition + 2]);
-    return answer = n1 - (n2 - n1);
+    return (answer = n1 - (n2 - n1));
   } else if (skipPosition === numbers.length - 1) {
     n1 = parseInt(numbers[skipPosition - 2]);
     n2 = parseInt(numbers[skipPosition - 1]);
-    return answer = n2 + (n2 - n1);
+    return (answer = n2 + (n2 - n1));
   } else {
     n1 = parseInt(numbers[skipPosition - 1]);
     n2 = parseInt(numbers[skipPosition + 1]);
     answer = n1 + (n2 - n1) / 2;
-    return answer; 
+    return answer;
   }
 };
 
