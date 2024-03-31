@@ -5,3 +5,17 @@
 
 Asciinema:
 
+brain-even:
+https://asciinema.org/a/0LdduWuldEalc3QQYY05HM4Kz
+
+brain-calc:
+https://asciinema.org/a/WyEGHrNvaMS63h2K9VLYBvzaT
+
+brain-gcd:
+https://asciinema.org/a/H42Ke2wdM77XwIQEP9gbQ7x9B
+
+brain-progression:
+https://asciinema.org/a/KaXzC5bWIbHD0rpQWqEOQOqO7
+
+brain-prime:
+https://asciinema.org/a/3Yckm6XEVPFVXLIL3uDFSYX2I
