@@ -1,11 +1,11 @@
 import _ from 'lodash';
 import readlineSync from 'readline-sync';
 
-const game = (generateQuestion, answer) => {
+const game = (messageQuestion, generateQuestion, answer) => {
     console.log('Welcome to the Brain Games!');
     let name = readlineSync.question('May I have you name? ');    
     console.log(`Hello, ${name}!`);
-    console.log('What is the result of the expression?');    
+    console.log(messageQuestion());    
 
     let i = 1;
     let answerCorrect = '';
