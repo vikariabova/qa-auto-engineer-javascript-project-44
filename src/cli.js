@@ -6,4 +6,9 @@ const name = () => {
   return nameUser;
 };
 
-export default name;
+const brainGames = () => {
+  console.log("Welcome to the Brain Games!");
+  return `Hello, ${name()}!`;
+}
+
+export default brainGames;
